@@ -1,0 +1,125 @@
+/* src/App.css */
+
+/* Override global body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the entire app */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2.5em; /* To match your design */
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+input:focus {
+  border-color: #4CAF50;
+}
+
+/* Custom styling for the Rank Table to match your design */
+table th,
+table td {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+table th {
+  background-color: #2c7a7b;
+  color: white;
+}
+
+table td {
+  color: #333;
+}
+
+table tr:nth-child(even) {
+  background-color: #e6fffa;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f0fff4;
+}
+
+table tr:hover {
+  background-color: #b2f5ea;
+}
+label{
+  color: #333;
+}
+/* Styling for team name */
+.team-student {
+  color: #2b6cb0;
+  font-weight: bold;
+}
+
+.team-dcode {
+  color: #68d391;
+  font-weight: bold;
+}
